@@ -42,19 +42,19 @@ body{
     animation-duration: 4s; /* don't forget to set a duration! */
 }
 .background-joao{
-    background-image: url('/ProjetoTime/assets/img/foto-joao.jpg') ;
+    background-image: url('../img/foto-joao.jpg') ;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .background-carlos{
-    background-image: url('/ProjetoTime/assets/img/foto-carlos.jfif') ;
+    background-image: url('../img/foto-carlos.jfif') ;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .background-rael{
-    background-image: url('/ProjetoTime/assets/img/foto-rael.jfif') ;
+    background-image: url('../assets/img/foto-rael.jfif') ;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
