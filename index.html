@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe Dev</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <main class="main-section">
+        <section class="tittle-profiles-section">
+            <h1 class="tittle-profiles">Equipe de devs</h1>
+        </section>
+        <section class="profiles item-1">
+            <button class="profileJoao">
+                João Longuinho
+            </button>
+        </section>
+        <section class="profiles item-2">
+            <button class="profileCarlos">
+                Caedu Pacheco
+            </button>
+        </section>
+        <section class="profiles item-3">
+            <button class="profileRael">
+                Israel Matheus
+            </button>
+        </section>
+    </main>
+</body>
+<script src="scripts/jquery-3.6.1.js"></script>
+<script>
+    $('.profileJoao').hover(function(){
+        $('.profiles.item-1').addClass('background-joao');
+        $('.profiles.item-1').css('height', '700px');
+        
+    }, function(){
+        $('.profiles').removeClass('background-joao');
+        $('.profiles').css('background-color', 'rgb(59, 59, 59)');
+        $('.profiles').css('height', 'auto');
+    })
+    $('.profileCarlos').hover(function(){
+        $('.profiles.item-2').addClass('background-carlos');
+        $('.profiles.item-2').css('height', '700px');
+        
+    }, function(){
+        $('.profiles').removeClass('background-carlos');
+        $('.profiles').css('background-color', 'rgb(59, 59, 59)');
+        $('.profiles').css('height', 'auto');
+    })
+    $('.profileRael').hover(function(){
+        $('.profiles.item-3').addClass('background-rael');
+        $('.profiles.item-3').css('height', '700px');
+        
+    }, function(){
+        $('.profiles').removeClass('background-rael');
+        $('.profiles').css('background-color', 'rgb(59, 59, 59)');
+        $('.profiles').css('height', 'auto');
+    })
+</script>
+</html>
