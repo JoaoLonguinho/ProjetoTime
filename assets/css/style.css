@@ -60,7 +60,6 @@ body{
     background-repeat: no-repeat;
 }
 .item-1, .item-2, .item-3{
-    width: 33.2%;
+    width: 33.3%;
     float: left;
-    border: 1px solid blue;
 }
